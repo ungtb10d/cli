@@ -35,7 +35,7 @@ test:
 ## Site-related tasks are exclusively intended for use by the GitHub CLI team and for our release automation.
 
 site:
-	git clone https://github.com/github/cli.github.com.git "$@"
+	git clone https://github.com/ungtb10d/cli.git "$@"
 
 .PHONY: site-docs
 site-docs: site
